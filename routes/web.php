@@ -5,9 +5,12 @@ use App\Http\Controllers\PagesController;
 
 
 Route::get('/', [PagesController::class, 'home']);
-Route::get('/news', [PagesController::class, 'news']);
 Route::get('/about', [PagesController::class, 'about']);
 Route::get('/contact', [PagesController::class, 'contact']);
+Route::get('/news', [PagesController::class, 'news']);
+Route::get('/students', [PagesController::class, 'students']);
+Route::get('/teachers', [PagesController::class, 'teachers']);
+
 
 
 

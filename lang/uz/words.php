@@ -3,6 +3,9 @@
 	return[
 		'school' => 'Maktab',
 		'home' => 'Bosh sahifa',
+		'news' => 'Yangiliklar',
+		'teachers' => 'Ustozlar',
+		'students' => 'O\'quvchilar',
 		'about' => 'Sayt haqida',
-		'contact' => 'Kontakt',
+		'contact' => 'Bog\'lanish',
 	];

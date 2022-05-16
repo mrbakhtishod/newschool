@@ -1,6 +1,6 @@
 	<!-- --------contact--------- -->
 	<div id="contact" class="contact-img">
-	    <h3>Contact</h3>
+	    <h3>{{__('words.contact')}}</h3>
 	</div>	
 
 	<div class="contact">               
@@ -116,7 +116,7 @@
 	    <div class="footer-bottom">
 	        <div class="container">
 	            <div>
-	            	<span> &copy; Chirchiq 2022</span>
+	            	<span> &copy; Uzbekistan 2022</span>
 	            </div>
 	            <div>
 	               <span>Programmer: +998 (99) 885-63-45 </span>

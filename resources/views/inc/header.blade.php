@@ -40,13 +40,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">{{__('words.home')}} </a>
+                        <a class="nav-link" aria-current="page" href="/">{{__('words.home')}} </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/news">{{__('words.news')}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/teachers">{{__('words.teachers')}}</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/students">{{__('words.students')}}</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/about">{{__('words.about')}}</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">{{__('words.contact')}}</a>
+                        <a class="nav-link" href="#contact">{{__('words.contact')}}</a>
                     </li>
                 </ul>
             </div>
