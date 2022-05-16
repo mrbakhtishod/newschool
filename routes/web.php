@@ -5,6 +5,7 @@ use App\Http\Controllers\PagesController;
 
 
 Route::get('/', [PagesController::class, 'home']);
+Route::get('/news', [PagesController::class, 'news']);
 Route::get('/about', [PagesController::class, 'about']);
 Route::get('/contact', [PagesController::class, 'contact']);
 
@@ -16,4 +17,3 @@ Route::get('/language/{lang}', function($lang){
         session()->put('locale', $lang);
     return redirect()->back();
 });
-//-----------------------------------------------------
