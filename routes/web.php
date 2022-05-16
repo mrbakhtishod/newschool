@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\PagesController;
 
 
@@ -11,7 +12,7 @@ Route::get('/news', [PagesController::class, 'news']);
 Route::get('/students', [PagesController::class, 'students']);
 Route::get('/teachers', [PagesController::class, 'teachers']);
 
-
+Route::get('/login', [AdminController::class, 'home']);
 
 
 //---------- Tilni o'rnatish uchun route --------------
