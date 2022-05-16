@@ -1,4 +1,4 @@
-@extends('inc.app')
+@extends('inc.site.app')
 
 @section('title', 'Home')
 
