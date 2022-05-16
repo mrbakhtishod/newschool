@@ -14,6 +14,8 @@ Route::get('/teachers', [PagesController::class, 'teachers']);
 
 Route::get('/login', [AdminController::class, 'home']);
 
+// Route::resource();
+
 
 //---------- Tilni o'rnatish uchun route --------------
 Route::get('/language/{lang}', function($lang){
